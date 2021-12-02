@@ -80,6 +80,7 @@ type TransactionLifecycle struct {
 	DBOps                       []*DBOp                `json:"dbops"`
 	RAMOps                      []*RAMOp               `json:"ramops"`
 	TableOps                    []*TableOp             `json:"tableops"`
+	KVOps                       []*KVOp                `json:"kvops"`
 	PubKeys                     []*ecc.PublicKey       `json:"pub_keys"`
 	CreatedBy                   *ExtDTrxOp             `json:"created_by"`
 	CanceledBy                  *ExtDTrxOp             `json:"canceled_by"`

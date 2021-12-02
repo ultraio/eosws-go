@@ -38,5 +38,6 @@ type ActionTrace struct {
 		DBOps         json.RawMessage `json:"dbops,omitempty"`
 		RAMOps        json.RawMessage `json:"ramops,omitempty"`
 		DTrxOps       json.RawMessage `json:"dtrxops,omitempty"`
+		KVOps         json.RawMessage `json:"kvops,omitempty"`
 	} `json:"data"`
 }
